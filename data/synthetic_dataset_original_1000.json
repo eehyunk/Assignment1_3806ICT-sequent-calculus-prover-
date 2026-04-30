@@ -1,0 +1,4016 @@
+{
+  "metadata": {
+    "dataset_type": "GenAI-assisted synthetic FOL/propositional benchmark",
+    "size": 1000,
+    "unique_formula_count": 936,
+    "duplicate_count": 64,
+    "duplicate_rate": 0.064,
+    "note": "The label 'not_proved' is an operational label, not a semantic proof of invalidity."
+  },
+  "label_counts": {
+    "valid": 500,
+    "not_proved": 500
+  },
+  "formulas": [
+    {
+      "formula": "(((R(c) ∧ P(a)) ∧ (R(c) ∧ R(a, b))) ∧ (∃x.P(x, x) → (Q(c, b) ∧ R(c, a))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((P(a) → ∀y.P(y, y)) ∨ ((R(c) ∧ ∀x.Q(a)) ∧ (¬Q(a) ∧ R(a, c))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((C ∧ D) ∧ (B → B)) ∨ (¬⊤ ∨ ¬D)) → ((((C ∧ D) ∧ (B → B)) ∨ (¬⊤ ∨ ¬D)) ∨ (((C ∨ A) ∧ (E → C)) ∨ ¬(C ∨ B))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊥ ∧ (⊥ → (¬(B → E) ∨ ((B ∨ B) ∧ (C → E))))) → (¬(B → E) ∨ ((B ∨ B) ∧ (C → E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬D ∧ (A ∨ A)) → ¬(A → B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B ∨ A) ∧ (E ∨ ⊥)) → (E ∨ ⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬D ∨ (D ∧ E)) ∧ ((B ∨ E) → (⊥ → A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(A → A)",
+      "label": "valid"
+    },
+    {
+      "formula": "⊥",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E → E) ∧ ¬C) → (¬(⊥ ∧ C) ∨ ((E → E) ∧ ¬C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "∀x.(R(x, b) ∧ P(b))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((D ∨ D) → (B ∨ C)) ∧ (¬C ∨ (A ∧ B))) → (¬C ∨ (A ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬C → (B → A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(D → B) → (D → B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬((C ∧ ⊤) → (C ∨ E)) ∧ ¬((⊤ ∧ E) → B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬E → E)",
+      "label": "valid"
+    },
+    {
+      "formula": "((A ∧ B) ∨ (C ∨ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬((B ∨ B) ∨ (A → D)) ∧ (((E ∨ D) → (A ∨ A)) ∨ ((E ∧ E) → (D ∧ D))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((D → E) ∨ (D ∨ B)) → ((D ∧ C) → (B ∨ C))) ∧ (¬(B ∧ A) → ((A ∧ D) ∨ (A ∧ E))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((D → (D → E)) → (¬(D → E) → ¬D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((((D → E) → (E ∨ A)) → ¬(B ∨ ⊥)) ∧ (¬(B ∨ ⊥) → ((D ∧ D) ∧ (⊥ ∧ ⊤)))) → (((D → E) → (E ∨ A)) → ((D ∧ D) ∧ (⊥ ∧ ⊤))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬E ∧ C) → ((¬A ∧ (B → E)) ∨ (¬E ∧ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬B → ¬E) ∧ ((A → D) → (⊥ → A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((D ∧ D) ∨ (C ∧ E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∧ (E ∧ C)) ∧ ¬(B → C)) ∨ (((A → B) → ¬D) ∧ ((D ∧ A) ∨ ¬B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((E ∧ D) ∨ (A ∧ C)) ∧ ¬(B ∨ D)) → ((((E ∧ D) ∨ (A ∧ C)) ∧ ¬(B ∨ D)) ∨ (((A → C) ∨ (A ∧ B)) ∧ (B ∧ (A ∨ E)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E → D) ∨ (D ∧ E)) → ¬⊥) → (¬¬⊥ → ¬((E → D) ∨ (D ∧ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D ∧ ⊥) ∧ (E ∧ B)) → (D ∧ ⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "(∃y.(Q(c, b) ∨ ⊥) → ¬(Q(a) ∨ R(c)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B → D) ∨ (A ∨ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬¬((D ∨ E) ∧ ¬⊥) → ¬((D ∨ E) ∧ ¬⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∨ C) ∧ (D ∨ B)) → (D ∨ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C ∧ C) → (E → D)) → ((C ∨ E) → (B ∧ B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C → D) ∧ (B ∧ A)) → (C → D))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬⊤",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊥ ∧ (((A ∨ E) ∧ (D ∧ A)) → ((C ∧ A) ∨ (⊥ ∨ A)))) → (((A ∨ E) ∧ (D ∧ A)) → ((C ∧ A) ∨ (⊥ ∨ A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬∃y.P(y) ∧ Q(b, b)) ∧ (((R(c, b) → Q(c)) ∨ (⊤ ∨ R(c))) ∧ ∀y.∃x.Q(c)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((¬⊥ → (⊤ ∨ A)) → ((⊥ → D) ∨ (E ∧ C))) ∧ (C ∨ C)) → ((¬⊥ → (⊤ ∨ A)) → ((⊥ → D) ∨ (E ∧ C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((B ∨ D) → D)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬D → D)",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬(C ∨ ⊤) ∨ ((C ∨ ⊥) ∧ (C → ⊥))) ∧ (D ∧ ¬(A ∧ ⊥)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E → B) ∧ (B → E)) → (B → E))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(C → B)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊥ ∧ E) → ((⊥ ∧ E) ∨ ¬⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "(C → (A ∨ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A ∨ C) → (⊥ ∨ E)) ∧ ((⊥ ∨ E) → (E ∨ D))) → ((A ∨ C) → (E ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬E → (D → D))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((¬B ∧ (A → E)) ∧ ((D → E) ∧ (A ∨ C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀y.P(b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(¬(D → B) ∨ ((E → A) ∧ (A ∧ C))) → (¬(D → B) ∨ ((E → A) ∧ (A ∧ C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((E ∨ (C ∨ ⊥)) ∧ ((E ∧ ⊥) → (B → B))) ∨ ¬((C ∨ B) ∨ (B ∧ B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "D",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C ∨ C) → (⊥ ∧ C)) → ((A ∨ D) → ¬C))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D ∨ A) ∧ (B ∨ D)) → (D ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(E → B)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A → C) ∧ ¬⊥) ∧ ((E ∧ C) → ¬C)) → ((A → C) ∧ ¬⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(C ∧ D) ∨ (C ∧ (E → E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∨ B) ∨ (⊥ → C)) → (¬A ∨ (C ∧ E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬Q(b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((¬C ∧ C) ∧ (¬D → (D → A))) → ⊤) → (¬⊤ → ¬((¬C ∧ C) ∧ (¬D → (D → A)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(P(b, a) → P(a, c)) → ∀z.⊥)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((D → B) ∧ ¬D) → ¬(A ∧ C)) → (((¬A ∨ (C ∨ C)) → ((A ∧ C) → ¬C)) ∨ (((D → B) ∧ ¬D) → ¬(A ∧ C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((Q(b) ∨ Q(a, c)) ∨ (P(b, a) ∨ ⊥)) ∨ ∀y.(P(y, b) ∨ Q(a, y)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E → ((B ∨ C) → (A ∧ D))) ∧ A) → (E → ((B ∨ C) → (A ∧ D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C ∨ B) → (A → B)) → ((E ∨ E) ∧ ¬A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((A → C) ∨ (E ∨ E)) → ((D ∧ A) ∨ (C → C))) ∧ ((((A → C) ∨ (E ∨ E)) → ((D ∧ A) ∨ (C → C))) → E)) → E)",
+      "label": "valid"
+    },
+    {
+      "formula": "¬∃x.¬∀z.P(a, z)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬((D ∨ D) ∧ (⊥ ∧ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((E ∧ B) → (E → C)) ∧ (¬D ∨ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D → A) ∨ (C → D)) ∨ ¬((D → A) ∨ (C → D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬D ∧ (⊤ ∨ C)) ∨ ((E ∨ E) → (E ∧ C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A → A) ∨ A) → ((E ∧ A) ∨ (E ∨ D))) → ((((A → A) ∨ A) → ((E ∧ A) ∨ (E ∨ D))) ∨ ¬(¬A → (D ∧ B))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(Q(c) ∧ ∀y.(R(y, b) → P(y, y)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((C ∨ E) ∧ (A → E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬¬D → ¬D)",
+      "label": "valid"
+    },
+    {
+      "formula": "((A ∧ ⊥) ∨ ((A ∨ B) ∨ (A ∨ D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "P(b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((D ∧ D) → D)",
+      "label": "valid"
+    },
+    {
+      "formula": "(((((C ∧ B) ∧ (D ∧ E)) ∨ ((⊥ ∨ D) ∧ (C ∧ D))) ∧ (E → ¬(A → D))) → (((C ∧ B) ∧ (D ∧ E)) ∨ ((⊥ ∨ D) ∧ (C ∧ D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬¬(¬(⊥ ∨ E) → ((E ∨ B) ∧ (E → A))) → (¬(⊥ ∨ E) → ((E ∨ B) ∧ (E → A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀y.(Q(a, y) → R(y))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬D ∧ (A ∨ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A ∨ C) → (E ∧ E)) ∧ ((E ∧ E) → (B → B))) → ((A ∨ C) → (B → B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((B ∨ D) ∧ (⊤ ∨ D)) ∧ ((B ∧ B) → (B → B))) → ((B ∨ D) ∧ (⊤ ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊥ → E) ∨ (B ∨ E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A ∧ ((D ∧ E) ∧ (B → C))) ∧ (((E ∧ D) ∨ ¬D) ∧ ((C ∧ E) → (A → E))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∧ D) ∧ (C ∨ D)) → ((E ∧ D) ∧ (C ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(¬B ∨ (E ∨ E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(⊤ ∨ C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬¬(B → A) → ¬(B → A))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬¬D → ((A ∨ A) → (E ∧ A))) ∧ (((A ∨ A) → (E ∧ A)) → C)) → (¬¬D → C))",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊤ → B) ∧ (D → C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∨ B) ∨ ¬(E ∨ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "C",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((E ∨ D) → (D ∧ ⊥)) ∧ ((A → D) ∨ (D → A))) → ((E ∨ D) → (D ∧ ⊥)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((P(a) → P(b, a)) ∨ (P(c) ∨ R(a, a)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬D ∨ (C ∧ B)) → ((D ∨ C) → ¬E)) → (¬((D ∨ C) → ¬E) → ¬(¬D ∨ (C ∧ B))))",
+      "label": "valid"
+    },
+    {
+      "formula": "R(c, a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬((E ∧ E) → (A ∧ D)) → ((E ∧ E) → (A ∧ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((E ∨ D) ∨ (C ∨ E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬C ∧ (E ∧ D)) → ¬C)",
+      "label": "valid"
+    },
+    {
+      "formula": "(∀z.(Q(z, z) → Q(a, z)) ∧ ((R(b, b) ∨ ⊥) ∨ ∀y.Q(a)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((B → E) ∨ (D ∧ D)) → ((D ∧ ⊤) ∨ (E ∨ A))) ∧ (((D ∧ ⊤) ∨ (E ∨ A)) → ((A ∧ E) → (D ∧ D)))) → (((B → E) ∨ (D ∧ D)) → ((A ∧ E) → (D ∧ D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D ∨ C) ∨ B) ∨ ((C ∧ E) ∧ (E ∧ B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((D → ((D ∨ A) ∨ (B ∨ C))) → (((D ∨ (D ∧ C)) → B) ∨ (D → ((D ∨ A) ∨ (B ∨ C)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((D ∧ A) ∨ (E → E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A → E) ∨ (C ∧ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "R(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∧ (¬A ∧ (C → E))) ∧ (D ∧ ((E → D) ∧ (A → ⊤)))) → (D ∧ ((E → D) ∧ (A → ⊤))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∧ ⊥) → (B ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬E ∧ (⊤ → A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊥ ∧ A) ∨ (B ∧ B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬D ∨ (B ∧ E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬D → (B ∧ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(((C → E) ∨ (C ∨ B)) ∨ (¬E ∨ ¬A)) → (((C → E) ∨ (C ∨ B)) ∨ (¬E ∨ ¬A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(¬B ∨ ¬A) → (((¬⊥ ∧ B) ∨ ((A ∧ D) ∨ (A → D))) ∨ ¬(¬B ∨ ¬A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬¬((⊥ ∨ C) → ¬B) → ((⊥ ∨ C) → ¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C ∧ (C → ¬E)) → ¬E)",
+      "label": "valid"
+    },
+    {
+      "formula": "((((Q(b) ∨ Q(a)) ∨ (R(a) ∧ Q(a))) ∧ ∀y.(⊤ ∨ P(b))) ∧ ((¬P(a) → ¬P(a)) → ∃y.∀z.⊥))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬⊥ ∧ B) → ¬⊥)",
+      "label": "valid"
+    },
+    {
+      "formula": "¬R(b, a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((C ∧ B) ∧ ¬B) → ((D ∨ ⊥) ∨ (B ∧ E))) → (¬((D ∨ ⊥) ∨ (B ∧ E)) → ¬((C ∧ B) ∧ ¬B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A ∧ B) ∨ ¬C) ∧ ¬E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((A ∧ B) ∧ (D ∨ B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((C ∧ E) → ¬D) ∧ ((⊤ ∧ ⊥) ∨ (⊤ ∨ C))) ∧ ((((C ∧ E) → ¬D) ∧ ((⊤ ∧ ⊥) ∨ (⊤ ∨ C))) → B)) → B)",
+      "label": "valid"
+    },
+    {
+      "formula": "((D ∧ (C → E)) → (D ∧ (C → E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "P(b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬((A ∧ C) ∧ (B ∨ C)) ∧ (¬¬D ∧ D)) → (¬¬D ∧ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "C",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(((E ∨ B) → ¬B) → ((E ∨ C) ∨ (⊥ ∧ E))) → (((E ∨ B) → ¬B) → ((E ∨ C) ∨ (⊥ ∧ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬((D ∨ B) ∧ (⊥ ∨ A)) ∧ (E ∨ ¬B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬¬B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(A ∧ ¬((E ∨ A) ∨ (E → A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A ∨ E) ∧ (E → D)) → (E → D))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B → ⊤) → ((D ∨ ⊤) ∨ (B → ⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B → D) → (D → A)) → ((B → D) → (D → A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A → B) ∧ (B ∧ D)) → ((C ∧ A) ∨ (B ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((A ∨ B) → (A ∨ E)) ∧ ((C ∧ D) → (B → E))) ∧ ((¬C ∧ (C ∨ A)) → ((C ∧ C) ∨ (C → E))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((C → A) → (C → D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B ∨ B) → (D → C)) → (¬(D → C) → ¬(B ∨ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D ∧ D) → ¬E) ∨ ⊥)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(B → E) ∧ (B → (B → A))) ∧ ¬((B → A) ∧ ¬D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((¬C ∧ E) → ((B → C) ∧ (E ∧ B))) ∧ (((B → C) ∧ (E ∧ B)) → ¬¬D)) → ((¬C ∧ E) → ¬¬D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D → B) ∨ (D ∧ ⊤)) → ((D → B) ∨ (D ∧ ⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(B ∧ A) ∨ ((C → B) ∧ (E ∨ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((R(b) → Q(a)) → (R(b, a) → ⊤))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A → A) → (C → D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(C → C) ∧ (¬A ∨ ¬B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "R(b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬E → (E → C)) → ((D → B) ∨ (D ∨ E))) → (¬((D → B) ∨ (D ∨ E)) → ¬(¬E → (E → C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "⊥",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬E → (D ∨ D)) ∧ (¬A → (⊤ ∨ ⊥))) → ((¬E → (D ∨ D)) ∧ (¬A → (⊤ ∨ ⊥))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((B → A) ∨ (⊤ ∨ E)) → ((B ∨ B) ∨ (D → E))) ∨ (((B ∧ C) ∨ B) → ¬(E ∨ E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((C ∧ B) ∧ B) ∨ ((A → E) ∨ (D ∨ E))) → (((A → A) → (B → C)) ∧ ¬¬B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∨ E) ∧ (C ∧ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(Q(c) ∧ R(c, c)) → ∀x.∃x.P(x)) ∨ ∀x.((P(b) ∨ ⊤) ∨ (P(c) → ⊥)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((⊥ ∨ E) → (A ∧ B)) ∧ ((⊥ ∨ B) ∨ (C → E))) → (A ∨ ¬(E ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬C → ¬C) ∧ ((C ∨ B) ∨ (⊥ ∧ ⊥))) → E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((R(a, a) → R(c, a)) ∧ ∀x.⊤)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬∃z.⊥",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D ∨ E) ∨ ¬A) ∨ ((A ∨ E) → ¬C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(D ∨ (E ∧ E)) → ((((A ∧ E) ∧ (C ∨ C)) → ¬(C → B)) ∨ ¬(D ∨ (E ∧ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A ∧ A) → (E → E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((Q(b) → R(a, b)) → (⊥ → P(c)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(((B ∨ D) ∨ ⊤) ∧ ((B ∧ ⊤) → (C ∧ D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "E",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∨ A) ∧ (B ∨ C)) → ((E ∧ ⊤) → (B → ⊥)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((R(b) → R(b)) ∧ ∀y.P(y, y))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(¬B ∨ (E ∨ C)) → (¬(¬B ∨ (E ∨ C)) ∨ E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((C ∧ E) → (D ∨ A)) ∧ ((D → E) ∧ ¬E)) → (((A ∨ B) → A) ∨ ((E → A) → (D → D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "R(b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((⊥ → (C ∨ A)) → (¬⊤ ∨ (C → A))) ∧ ((¬⊤ ∨ (C → A)) → ((E → C) ∧ (D ∨ D)))) → ((⊥ → (C ∨ A)) → ((E → C) ∧ (D ∨ D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((E ∨ D) ∨ (A → D)) ∧ (E → (E ∨ A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬((D ∧ D) ∧ (E ∨ ⊥)) → (¬¬¬D ∨ ¬((D ∧ D) ∧ (E ∨ ⊥))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((⊤ ∧ A) ∨ (E ∨ C)) → ((B → D) ∧ (D ∨ E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(¬C ∧ (E → D)) → (¬C ∧ (E → D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C ∧ A) → (C → ⊥))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B ∧ C) ∨ (B ∧ B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B → E) ∨ ¬(B → E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C ∨ ((E → D) ∧ ⊤)) → (((A → D) → (⊤ ∧ D)) ∧ ((C ∧ C) ∨ (E ∧ B))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((C ∨ C) → ((C ∨ C) ∨ (E ∨ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬((E ∧ C) → (E → A)) ∧ ((¬D → (⊥ → C)) ∧ ((C ∨ D) ∧ ¬E))) → ¬((E ∧ C) → (E → A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(∀z.R(z, b) ∨ ∀z.Q(z))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → D) ∧ ¬⊥) → (A → D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(∀y.((R(y) ∧ ⊤) ∨ ∀y.Q(a, c)) ∧ (((R(c, c) ∨ Q(b, c)) → (⊥ ∧ Q(a, b))) → ¬(P(b, b) → R(b, b))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∨ D) → (B → D)) → (((E ∨ D) → (B → D)) ∨ ((⊥ ∧ E) → (C → E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(P(b, a) → R(a))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(C ∨ D) → (C ∨ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(Q(a) ∧ Q(a, c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬⊤ → ¬⊤)",
+      "label": "valid"
+    },
+    {
+      "formula": "∀x.(R(b, a) ∧ Q(x))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∨ C) ∨ (E ∧ E)) → (((E ∨ C) ∨ (E ∧ E)) ∨ ((C ∨ D) ∧ ¬D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C ∧ E) ∧ (⊤ → B)) → ((A ∧ ⊤) → (D ∨ E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(∀x.Q(x) ∧ (∀y.R(b) ∨ (Q(a) → P(c))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((P(c, a) ∧ R(c, b)) → ∀y.P(c)) ∧ ((Q(b, c) ∧ Q(b, c)) ∨ (R(c) ∨ Q(b, b))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬¬A → (C ∨ C)) ∧ ((C ∨ C) → ¬(C → E))) → (¬¬A → ¬(C → E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(¬E ∧ (C ∧ ⊥)) ∧ (C ∧ ((E ∧ A) → (E ∨ A))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(¬P(c, b) → ∃x.Q(x))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬((A ∧ A) → (B ∧ C)) → ((((E ∧ ⊥) ∧ (C → C)) ∨ (¬C ∨ (D ∨ D))) ∨ ¬((A ∧ A) → (B ∧ C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬(C ∧ A) → ((D → A) ∧ E)) → ((¬(⊤ → E) → ¬(E ∧ D)) ∨ (¬(C ∧ A) → ((D → A) ∧ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((¬E → (D → B)) → ((D ∧ B) ∨ (B → C))) ∧ (((D ∧ B) ∨ (B → C)) → ((D → B) → (B → E)))) → ((¬E → (D → B)) → ((D → B) → (B → E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A → D) ∧ C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬E → (E ∨ B)) → (¬(E ∨ B) → ¬¬E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A ∧ E) → (B → D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((⊥ ∨ B) ∨ (A ∨ A)) ∨ ((E ∨ D) ∧ (⊤ ∧ B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬B ∧ (E → A)) → (E → A))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C ∨ ⊥) ∨ ((A ∧ E) ∧ ¬A)) → (((B ∨ A) ∧ (E ∨ D)) → ((C ∨ C) → (E ∧ B))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((B ∨ ⊤) ∧ ¬A) ∨ ((D ∧ C) → (B ∧ ⊤))) ∨ (((E → A) ∧ ¬D) ∧ ((⊤ ∨ C) → (D → A))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A ∨ C) → (E ∨ B)) → ((C ∧ ⊥) ∨ ¬C)) ∨ B)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C ∧ C) ∨ (A ∧ A)) → ((¬C ∧ (A → A)) ∨ ((C ∧ C) ∨ (A ∧ A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C → ⊤) ∧ (B → B))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((¬C ∨ ¬E) ∧ ((C ∧ C) ∨ (C ∨ C))) ∧ (¬¬A ∨ ¬¬B)) → (¬¬A ∨ ¬¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((((D → B) ∨ ¬C) ∨ C) → (((⊤ ∨ C) → (C ∨ E)) → ((A ∨ A) ∨ (D → B)))) → (¬(((⊤ ∨ C) → (C ∨ E)) → ((A ∨ A) ∨ (D → B))) → ¬(((D → B) ∨ ¬C) ∨ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E ∨ B) → (C ∧ C)) → C) → E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬A → ¬C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬((D ∧ D) → (B ∨ D)) → ((D ∧ D) → (B ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(C → (((A ∧ B) ∧ (E → A)) ∨ C))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A ∨ E) ∨ (A → E))",
+      "label": "valid"
+    },
+    {
+      "formula": "(C ∨ (C ∨ (E ∧ E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀x.(∀y.⊥ ∧ (P(x) ∧ R(x)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(C ∨ D) → (C ∨ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬D ∧ (B ∨ E)) ∧ ((B ∨ A) → (A → E))) → ¬((B ∧ ⊤) ∨ (⊥ ∨ B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "⊥",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬¬D",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(D ∨ C) ∧ E) → ¬(D ∨ C))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((⊥ ∧ A) ∧ (C ∧ ⊥)) → ((B → D) ∨ (D → C))) → (¬((B → D) ∨ (D → C)) → ¬((⊥ ∧ A) ∧ (C ∧ ⊥))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A ∨ ¬⊥) ∨ (¬E → (E ∨ E))) ∨ ¬((A ∨ ¬⊥) ∨ (¬E → (E ∨ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∧ (A ∧ (A ∨ D))) → (((E ∧ ⊤) ∧ ¬E) ∧ ((A ∧ ⊤) ∧ (⊥ ∧ C))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∧ B) → A) ∨ ¬((E ∧ B) → A))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((⊥ ∧ B) ∨ (D → B)) ∨ (¬C → (E ∧ D))) ∨ ¬(A → (B ∨ E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → A) ∧ (B ∧ B)) ∨ ¬((A → A) ∧ (B ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(C → A) ∨ (¬C → (C ∨ E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((⊥ → A) → (C ∨ A)) ∧ ((C ∨ A) → (A ∧ B))) → ((⊥ → A) → (A ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A ∧ ((B → B) ∨ (E ∧ C))) → ¬((A ∨ E) ∧ (C → C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊥ → B) ∧ (A ∧ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∨ D) ∨ (A ∧ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C → C) ∧ (D → E)) → (D → E))",
+      "label": "valid"
+    },
+    {
+      "formula": "P(b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∨ B) → (B → A)) → (¬(B → A) → ¬(E ∨ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C ∧ B) ∧ (B ∧ A)) → (B ∧ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(C → C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E → ((D → A) → (B → A))) ∧ (((D → A) → (B → A)) → ((D ∨ C) ∧ ¬E))) → (E → ((D ∨ C) ∧ ¬E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬A ∧ D) → ((¬A ∧ D) ∨ ((C ∨ D) ∧ (C ∧ C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D ∨ D) ∨ ¬A) → ¬(E ∧ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(E ∨ (B ∨ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(C → D) ∧ (¬(C → D) → ((C → D) ∧ ¬C))) → ((C → D) ∧ ¬C))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((A ∨ E) → ¬E) ∧ ¬(B ∧ A)) → ((A ∨ E) → ¬E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C → C) ∨ ¬B)",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(A → A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊤ ∨ (¬⊥ ∧ ¬E)) ∨ C)",
+      "label": "valid"
+    },
+    {
+      "formula": "((A ∨ (C → D)) ∧ ((A ∧ D) → (A ∨ B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((P(b) → Q(c, b)) ∨ (Q(c, b) ∨ Q(a)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(⊤ ∧ (D → B)) → (⊤ ∧ (D → B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(C ∧ B) ∨ (¬D ∨ (D → E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((⊥ ∧ B) → (E → ⊤)) → (((⊥ ∧ E) ∨ C) ∨ ((⊥ ∧ B) → (E → ⊤))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((¬D ∧ (E → C)) ∧ ¬(⊤ ∨ E))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(∀x.(R(x, x) ∨ R(c)) → ((R(a, c) ∧ P(c)) ∧ (⊥ ∨ Q(a, b))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((D → E) ∧ (E ∨ A)) ∨ ((D ∨ D) ∨ (E ∧ D))) → A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((C ∧ D) ∨ (A ∧ D)) → ((E ∧ B) ∧ ¬B)) ∧ (((E ∧ B) ∧ ¬B) → ((D ∧ A) → (A ∧ C)))) → (((C ∧ D) ∨ (A ∧ D)) → ((D ∧ A) → (A ∧ C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "P(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(C → (D → B)) → (C → (D → B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(Q(b) ∧ (P(c, b) → P(a, b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬E → ¬A) → ((E → C) → E)) → (¬((E → C) → E) → ¬(¬E → ¬A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬((D → C) → (A → C)) ∨ (((C ∨ A) ∧ (B → B)) ∨ ¬(E ∧ ⊥)))",
+      "label": "valid"
+    },
+    {
+      "formula": "R(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊤ → E) ∧ (⊥ ∧ E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((D → ¬B) ∨ C) → ((¬E ∨ (B ∧ D)) ∧ (¬B → (C ∨ D)))) ∧ (((¬E ∨ (B ∧ D)) ∧ (¬B → (C ∨ D))) → ¬((D → D) ∨ (C → ⊥)))) → (((D → ¬B) ∨ C) → ¬((D → D) ∨ (C → ⊥))))",
+      "label": "valid"
+    },
+    {
+      "formula": "Q(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B ∧ E) → (B ∧ E))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬R(b, a) ∧ P(b, c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → B) ∨ (B → C)) → ((A → B) ∨ (B → C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "∀y.((∀y.R(y, y) ∧ ∃y.P(c)) → ((Q(y) ∨ Q(c, y)) ∨ (Q(y) → R(y))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬((D ∧ ⊥) ∨ (B ∨ B)) ∨ E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(P(c) ∨ R(b, c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E → (⊥ ∨ E)) ∧ ((⊥ ∨ E) → (E → ⊥))) → (E → (E → ⊥)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬A ∨ (D ∧ E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(∀z.∀y.¬P(c) ∨ P(c, a))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(D → ⊤) ∨ ((D ∧ D) ∧ (E ∨ D))) → ¬¬(D ∨ E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊤ → (((D → A) ∨ (C ∨ C)) ∧ ((D ∨ C) → (B ∨ B)))) → (¬(((D → A) ∨ (C ∨ C)) ∧ ((D ∨ C) → (B ∨ B))) → ¬⊤))",
+      "label": "valid"
+    },
+    {
+      "formula": "((D ∧ B) ∨ (D ∧ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((C ∨ C) → ((C ∨ C) ∨ (E → ⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "E",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬¬((B → D) ∨ (A → C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬D ∨ ¬¬D)",
+      "label": "valid"
+    },
+    {
+      "formula": "E",
+      "label": "not_proved"
+    },
+    {
+      "formula": "⊤",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬(E ∨ E) ∨ ((D → C) → ¬D)) → ((¬C → (C ∧ B)) → ¬(C → C))) → (¬((¬C → (C ∧ B)) → ¬(C → C)) → ¬(¬(E ∨ E) ∨ ((D → C) → ¬D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "∃z.(R(z) → R(c))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C ∨ B) ∧ (A → ⊥))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∨ E) ∨ (C ∨ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∧ B) ∨ E) → ¬(B ∧ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((P(b, b) ∨ Q(a)) ∨ (P(b, a) ∧ R(a, a))) ∧ (¬⊤ → (Q(b, b) → R(a))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((C → ⊥) → (D ∨ D)) → (¬D ∧ (B → E))) ∧ ((¬D ∧ (B → E)) → ((A → A) ∨ (E ∧ E)))) → (((C → ⊥) → (D ∨ D)) → ((A → A) ∨ (E ∧ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬E ∨ (⊤ ∧ B)) ∧ ((A → E) → (D ∧ A))) → ((A → E) → (D ∧ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(A → ((B ∧ ⊥) ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(P(c, c) ∧ P(a, b))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬¬A → (B ∧ (B → D))) → (¬(B ∧ (B → D)) → ¬¬¬A))",
+      "label": "valid"
+    },
+    {
+      "formula": "R(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C ∧ B) ∧ (A ∨ E)) ∨ ¬((C ∧ B) ∧ (A ∨ E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(P(a, a) ∨ ∀y.(∀y.R(c) → ∀z.⊤))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬E ∨ (((A → C) ∧ B) ∧ ((C → E) → (B ∨ D))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(B ∧ ¬D)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬((E ∨ E) ∨ (⊥ ∨ A)) → ((E ∨ E) ∨ (⊥ ∨ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬D",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((⊤ ∨ A) ∨ (D ∧ D)) ∨ (¬A ∧ D)) → ((((⊤ ∨ A) ∨ (D ∧ D)) ∨ (¬A ∧ D)) ∨ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((⊥ ∨ ⊥) ∨ ¬A) → (¬A → (A ∧ A))) ∨ (((⊥ ∧ B) ∧ (E → ⊤)) ∨ ((E → A) ∧ (B ∨ A))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∨ E) ∧ (E ∧ B)) → (E ∧ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(P(a) → (Q(b) ∨ P(a)))",
+      "label": "valid"
+    },
+    {
+      "formula": "⊤",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D ∧ C) → (E → A)) → ¬(B → D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(A ∨ ((C ∨ C) → (C ∧ E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(A ∨ D) ∧ ((D ∨ B) → (D ∧ D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((A ∨ ((B → C) ∧ (B ∨ C))) → ((A ∨ ((B → C) ∧ (B ∨ C))) ∨ (¬(E → E) ∧ ¬(D ∨ D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E → E) ∨ ¬B) ∧ (E ∧ D)) → D)",
+      "label": "valid"
+    },
+    {
+      "formula": "(((Q(a) → R(a)) ∧ ∃z.P(z)) ∧ ((P(a, b) ∧ P(b, b)) ∨ (R(b, c) ∧ ⊥)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(D ∧ E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∧ (C ∨ D)) ∨ ((C ∨ D) ∨ (C ∧ B))) → (((D ∨ B) ∧ (⊥ → A)) ∨ ((E → A) ∧ (B → D))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬¬(D → B)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((⊤ ∧ B) → (D ∧ A)) → (¬(D ∨ D) ∨ ((⊤ ∧ B) → (D ∧ A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬¬(¬(B → B) ∧ (¬B ∧ (⊤ ∨ E))) → (¬(B → B) ∧ (¬B ∧ (⊤ ∨ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E ∨ D) ∧ ¬C) ∧ (¬A ∧ (A ∧ C))) → (¬A ∧ (A ∧ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(R(b) → (R(c, b) ∧ ⊥))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A → E) ∨ (B → B)) ∨ (¬C ∨ (A ∧ E))) ∨ ¬(((A → E) ∨ (B → B)) ∨ (¬C ∨ (A ∧ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬R(c)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬A ∨ ⊥)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(B ∨ A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬B → (((B → C) ∧ (B ∧ D)) ∨ ¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "((D ∨ D) → ((D ∨ D) ∨ (D ∧ ⊥)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬¬(((D ∨ C) ∧ (E ∧ ⊥)) → (E → (C ∧ C))) → (((D ∨ C) ∧ (E ∧ ⊥)) → (E → (C ∧ C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((R(c, a) → (Q(b) ∧ R(c, b))) → ¬(P(c) ∧ Q(c, b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬E ∧ B) ∧ (¬B ∧ (D ∧ E))) → (¬E ∧ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((P(b) → P(a)) ∧ (Q(b, b) ∧ R(b, b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((D ∨ B) ∧ ¬C) → ¬(⊤ ∧ C)) ∨ ¬(((D ∨ B) ∧ ¬C) → ¬(⊤ ∧ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A ∨ E) ∧ (C ∨ E)) ∧ ((D ∨ D) → (D → B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬¬B ∧ (¬¬B → (¬C → A))) → (¬C → A))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬∃y.(P(a, a) ∧ R(b))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A ∧ C) ∧ (B ∧ A)) ∨ D) → (¬D ∨ (((A ∧ C) ∧ (B ∧ A)) ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∨ B) ∨ (⊤ → E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B ∧ A) → ((B ∧ A) ∨ (A ∧ E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((P(c, c) ∨ Q(b, c)) ∨ ∀y.⊤)",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬(E ∨ E) → ((A ∨ B) → B)) ∧ ((¬C → ¬B) → (¬A → ¬C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(P(a, c) ∧ R(a, c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(B → B) → ((E ∨ (A ∨ B)) ∨ ¬(B → B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(((B ∧ E) ∨ (E → B)) ∧ ((E → C) ∧ ¬E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((C ∧ B) ∨ (⊥ ∧ B)) ∧ (¬B ∧ (E ∨ D))) → ((C ∧ B) ∨ (⊥ ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((E → D) ∧ (A ∨ B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀x.Q(b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬D ∨ (⊤ → E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(R(b) → ¬(P(c, c) ∧ P(c)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E → B) ∨ ¬(E → B))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬B → ¬B) → (¬B → ¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C → E) ∨ (C → A)) → (((C → E) ∨ (C → A)) ∨ ((E ∧ C) → (B → D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬D ∨ ¬¬D)",
+      "label": "valid"
+    },
+    {
+      "formula": "∀x.(¬⊤ ∨ ¬P(x, x))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(∀z.(Q(b, c) → Q(a)) ∧ (¬R(a) → (R(a) → P(c))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "R(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((E ∧ C) ∨ (D ∨ ⊥)) → (A ∨ (B ∧ E))) → (¬(A ∨ (B ∧ E)) → ¬((E ∧ C) ∨ (D ∨ ⊥))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((D → C) ∧ (⊤ ∧ E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((C ∧ B) ∨ (C ∧ ⊤)) → ¬(C → A)) ∨ (((A → E) ∧ E) ∨ (¬C ∧ (⊥ ∧ C))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∧ ¬D) ∧ E) → (E ∧ ¬D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬¬((D → B) ∧ (⊤ ∨ B)) → ((D → B) ∧ (⊤ ∨ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((A → A) → (E ∧ ⊤)) ∧ ((E ∧ ⊤) → A)) → ((A → A) → A))",
+      "label": "valid"
+    },
+    {
+      "formula": "((D ∧ A) → (D ∧ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "((D ∧ C) ∨ (A ∨ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B → (D ∧ A)) → (A ∨ (D ∧ D))) → (((C ∨ B) → (E ∧ E)) ∨ ((⊥ ∧ E) ∨ (B ∨ B))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((⊤ → (A ∨ ⊥)) ∧ ((A ∨ ⊥) → (B ∧ B))) → (⊤ → (B ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A ∧ B) ∧ (⊤ ∧ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((⊥ → B) ∧ ¬A) → ¬A)",
+      "label": "valid"
+    },
+    {
+      "formula": "((D → D) → (C → A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B ∨ D) ∨ ¬(B ∨ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A ∨ C) → (A ∨ B)) ∧ (¬C ∨ (A ∧ A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "A",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(D ∧ C) → ((A → E) → ¬B)) → (¬((A → E) → ¬B) → ¬¬(D ∧ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬((B → B) → E) → (B → ((D ∧ ⊤) ∧ (B → E)))) ∧ ((B → ((D ∧ ⊤) ∧ (B → E))) → (D ∨ ¬¬C))) → (¬((B → B) → E) → (D ∨ ¬¬C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C ∨ C) ∨ (A ∨ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D → (¬E → (C ∨ E))) ∧ ((¬E → (C ∨ E)) → C)) → (D → C))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((A ∨ A) ∨ (E → ⊤))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(∃x.Q(x) → ∀y.P(b))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬((R(a, b) → R(b)) ∨ (R(c) ∧ P(b, b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((D → B) → ((D → B) ∨ ¬⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬Q(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((D ∨ E) ∨ (⊤ ∧ E)) → ((B → C) ∧ ¬B)) → (¬((B → C) ∧ ¬B) → ¬((D ∨ E) ∨ (⊤ ∧ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(E ∧ (B → B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((C ∧ A) ∧ (D → C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B ∨ ((B ∧ D) ∨ (D ∧ E))) ∧ A) → (B ∨ ((B ∧ D) ∨ (D ∧ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((D ∨ A) → (B → D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((D ∨ ⊤) → ((A ∧ D) ∨ (D ∨ ⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬⊤ → ¬(E → E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∧ (E ∨ A)) → (E ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((⊥ ∨ E) ∨ ¬D) ∧ ((E ∨ C) → (⊥ ∧ E))) → ((E ∨ C) → (⊥ ∧ E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∧ D) ∧ ((B ∧ D) → (C → ⊥))) → (C → ⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C ∨ B) ∨ ¬C)",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊤ ∨ ⊥) ∧ ⊥)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C ∨ ⊤) ∨ (E ∧ A)) → D)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B → E) ∧ ¬B)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬B → E) → (¬(B ∧ ⊥) ∨ (¬B → E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∨ C) ∧ ¬E) → ¬E)",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((A ∨ ⊥) ∨ ¬C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∨ ⊤) ∨ (D ∧ A)) → (((E ∨ ⊤) ∨ (D ∧ A)) ∨ (B → ¬⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬A ∨ (A ∧ ⊤)) → ((D ∧ B) ∧ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((D ∨ C) → ((D → A) ∨ (D ∨ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B → A) → ⊥) ∨ ¬(B ∧ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((D ∧ E) ∨ ¬C) → ((B ∨ B) ∧ ¬C)) ∧ A) → (((D ∧ E) ∨ ¬C) → ((B ∨ B) ∧ ¬C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((P(b, b) → ⊥) ∧ ∀z.P(z, c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B ∨ A) → (E ∨ B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(C → B) ∧ ((E ∧ A) → ¬E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A → C) → (A → D)) ∧ ((A ∧ A) ∧ (E ∨ ⊤))) → ((A ∧ A) ∧ (E ∨ ⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "R(c, a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((D ∨ C) ∧ ¬⊤) ∨ ((⊥ ∨ D) ∧ (A ∧ C))) → ((((C ∨ A) ∧ (E ∨ D)) ∧ ((A → D) ∨ B)) ∨ (((D ∨ C) ∧ ¬⊤) ∨ ((⊥ ∨ D) ∧ (A ∧ C)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((E → B) ∨ (B ∧ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((((A → D) ∧ (C → D)) ∨ (E ∨ ¬A)) → (((E ∧ E) ∨ (C ∨ ⊥)) → (¬D → (D → A)))) ∧ ((((E ∧ E) ∨ (C ∨ ⊥)) → (¬D → (D → A))) → ¬((A ∨ E) → (A ∨ E)))) → ((((A → D) ∧ (C → D)) ∨ (E ∨ ¬A)) → ¬((A ∨ E) → (A ∨ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((P(c) → P(c, b)) → ∀x.R(x))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊥ ∨ D) → ((A ∨ E) ∨ (⊥ ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((B ∧ E) ∨ (C ∧ E)) ∨ ((A → D) ∨ ¬A)) ∨ (¬(E ∧ C) ∨ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊥ ∧ C) → ((E ∧ E) ∨ (⊥ ∧ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((D ∧ B) ∧ (E ∨ ((E → E) ∧ (⊥ → ⊤))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(P(a) ∧ Q(a, a))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬∃z.(¬P(z, z) → (P(z) ∨ ⊥))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬¬¬⊤ ∧ (((E → B) ∨ (C ∨ E)) → ((D → E) → ¬C))) → ¬¬¬⊤)",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊤ ∧ ⊤) → ((⊤ ∧ ⊤) ∨ (D ∨ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A → D) → (D → A)) → (((A → D) → (D → A)) ∨ ((C → C) ∨ (⊥ ∨ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(C ∨ B)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(A → D) ∨ ((D ∨ C) ∨ (A ∧ ⊥))) → ((¬(A → D) ∨ ((D ∨ C) ∨ (A ∧ ⊥))) ∨ ((¬D ∧ ¬B) → ((A ∨ C) → C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A → E) ∨ (C ∧ E)) → ((E ∨ D) ∨ (B ∨ A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊥ ∧ (((E ∧ C) ∨ (E → ⊤)) ∧ ((B → A) ∧ (C ∨ E)))) → (((E ∧ C) ∨ (E → ⊤)) ∧ ((B → A) ∧ (C ∨ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬¬¬(E → E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "P(c, c)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(⊥ ∧ E) → (⊥ ∧ E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((Q(b, c) ∨ ¬Q(c)) → ¬(R(a, b) → P(b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "E",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((E ∨ E) → (D ∨ B)) ∨ ((B ∧ C) → (A ∧ D))) → (((E ∨ E) → (D ∨ B)) ∨ ((B ∧ C) → (A ∧ D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "R(b, b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((B ∨ E) → A) ∨ (¬D ∧ (E ∧ C))) → (((¬C → (A ∨ ⊥)) ∨ D) ∨ (((B ∨ E) → A) ∨ (¬D ∧ (E ∧ C)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((E ∨ D) ∧ ((E ∨ D) → (B ∧ A))) → (B ∧ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((P(b, c) ∧ P(a, a)) ∧ (P(c) ∧ R(a))) ∨ (∃y.R(c, y) → (R(b) ∨ Q(a, a))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬((C ∨ B) ∨ (C → D)) → ((C ∨ B) ∨ (C → D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A ∨ E) → (D ∧ ⊥)) → ((D ∧ D) → (C ∧ B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∧ E) ∧ (E ∧ B)) → (E ∧ E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬(⊤ ∧ B) → ¬(D → B)) → (((B → (A ∨ ⊤)) ∧ ¬D) ∨ (¬(⊤ ∧ B) → ¬(D → B))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬E → ¬E)",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬A ∨ (C ∧ A)) ∧ ((A ∧ ⊥) ∨ (D ∧ A))) ∧ ¬((E ∨ A) ∨ (C → B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((¬E ∨ (C → B)) ∨ ((A → D) ∧ (A → A))) ∧ ((⊤ ∨ (E ∨ E)) ∧ (¬C ∨ (C → E)))) → ((⊤ ∨ (E ∨ E)) ∧ (¬C ∨ (C → E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((⊥ ∧ C) ∨ (A → C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((B ∧ A) ∧ D) ∨ ((D ∧ E) ∨ (A ∨ A))) ∧ (((E ∧ D) ∧ (E ∧ E)) → ((B ∨ A) → B))) → (((E ∧ D) ∧ (E ∧ E)) → ((B ∨ A) → B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C ∨ E) → (B → ⊤)) → ((D ∨ E) ∧ (B → B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊤ ∨ A) ∨ E)",
+      "label": "valid"
+    },
+    {
+      "formula": "((((C ∧ A) ∨ D) ∨ D) ∧ (((A ∨ ⊤) → ¬B) ∧ ((A ∧ A) → ¬A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬((⊤ ∧ E) ∧ (A ∨ E)) → ((((C → C) → (E → C)) ∧ (A ∨ ¬E)) ∨ ¬((⊤ ∧ E) ∧ (A ∨ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((C ∧ B) → (C ∧ D)) → ((C ∨ E) ∧ (B ∨ ⊤))) ∧ (((C ∨ E) ∧ (B ∨ ⊤)) → ((B ∧ D) → (C ∧ E)))) → (((C ∧ B) → (C ∧ D)) → ((B ∧ D) → (C ∧ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((A ∧ E) → (B → C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((A → (A ∨ D)) → (A → (A ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(D → (E ∨ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∧ (B ∧ C)) → (B ∧ C))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B → A) ∨ (D ∧ ⊥)) ∧ ((C → ⊤) ∧ (⊥ ∧ D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C ∧ (C → D)) ∨ ((E ∨ ⊤) ∨ (B → C))) ∧ (¬(A ∨ B) ∨ (¬A ∨ (D ∧ C))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬B ∧ (¬B → ((A ∨ A) ∧ (A → B)))) → ((A ∨ A) ∧ (A → B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((B ∨ E) ∧ (A → C)) ∨ C) ∧ (((A → A) → ¬C) ∧ ¬(D ∨ C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬R(c) ∨ (R(a, a) ∧ ⊥)) ∧ ¬∀z.Q(c, c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(A ∧ A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬C ∨ (A → D)) → E) ∨ ¬((¬C ∨ (A → D)) → E))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((E → D) ∧ (⊤ ∧ A)) → ((E → D) ∧ (⊤ ∧ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((R(a) ∧ ((Q(a) ∧ R(c, b)) ∨ (R(b, b) ∨ R(c, c)))) → (((Q(a, a) ∨ P(b, c)) ∧ (Q(b, b) ∧ P(a))) → ((⊥ → Q(b)) → (R(c, a) → P(c, c)))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((D → B) ∨ (A ∧ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∨ (¬C ∨ (B → A))) → ¬¬(D → A)) → (¬¬¬(D → A) → ¬(D ∨ (¬C ∨ (B → A)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(C ∧ ⊥) ∨ ¬¬(C ∧ ⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C ∧ ((B ∨ C) ∨ (B → ⊤))) → ((C ∧ ((B ∨ C) ∨ (B → ⊤))) ∨ (((E ∨ E) ∧ (B ∨ B)) ∧ ((D ∨ D) ∨ (D ∨ D)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B → D) ∨ (A ∨ E)) → (((B → D) ∨ (A ∨ E)) ∨ ((A → A) → C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬((⊥ → P(c)) → (P(b, a) ∨ P(c, a))) ∨ ((¬R(c) ∧ (R(a, c) → R(c))) ∧ ∃z.∀x.Q(z, x)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((E ∧ D) → ¬B) ∧ ((D ∧ B) ∨ ¬C)) ∨ ¬(((E ∧ D) → ¬B) ∧ ((D ∧ B) ∨ ¬C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "∀z.((Q(b) ∨ ⊥) ∨ (P(a, a) ∨ R(z, z)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀x.(((⊥ ∧ R(c, x)) ∨ ∃y.R(y, x)) → ((Q(x) ∧ R(a, c)) → (⊥ ∧ R(b, a))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀y.Q(y)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((C → A) ∧ ¬D) → ((⊤ ∨ E) ∧ (A ∧ C))) ∧ (((⊤ ∨ E) ∧ (A ∧ C)) → ((A ∨ E) → ¬A))) → (((C → A) ∧ ¬D) → ((A ∨ E) → ¬A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬B → ((C → B) → (⊥ → C))) ∨ ¬(¬B → ((C → B) → (⊥ → C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((B ∧ A) ∨ ¬D) ∧ ¬⊤) ∧ (((⊤ ∧ B) → (A ∧ ⊥)) → (A ∧ (D ∧ C))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬Q(c, a) ∧ ⊤)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((C → D) ∨ B) ∧ (((C → D) ∨ B) → ⊥)) → ⊥)",
+      "label": "valid"
+    },
+    {
+      "formula": "(((((⊥ → C) → (B ∧ B)) ∧ B) → (A ∧ ((C ∧ A) ∨ (D → ⊤)))) → (¬(A ∧ ((C ∧ A) ∨ (D → ⊤))) → ¬(((⊥ → C) → (B ∧ B)) ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E ∨ A) → (C ∧ E)) ∧ ((D ∨ E) ∧ (B ∧ B))) → ((D ∨ E) ∧ (B ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(E ∧ (B ∨ (B ∧ A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬((¬⊤ ∧ (C → ⊤)) ∧ ((E → B) ∨ (D ∨ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((⊥ ∨ E) → (D ∧ E)) → ¬(A ∧ C)) ∧ (¬(A ∧ C) → ¬(E ∧ A))) → (((⊥ ∨ E) → (D ∧ E)) → ¬(E ∧ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(B → E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬B ∧ (B ∨ B)) → ¬B)",
+      "label": "valid"
+    },
+    {
+      "formula": "((D → B) ∧ (D → B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((D → D) → (E ∨ (D → D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊥ → ¬B) ∨ ((C ∧ D) ∨ (D ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∨ ¬⊥) → D)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C ∧ A) → (C ∧ B)) ∧ ((C → C) ∧ (D → C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A ∧ A) → (D ∨ D)) → ((C → C) ∧ (C → ⊤))) → (((A ∧ A) → (D ∨ D)) → ((C → C) ∧ (C → ⊤))))",
+      "label": "valid"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬A → (D → E)) ∧ ((D → E) → B)) → (¬A → B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(C ∨ (C → ((B ∧ C) ∨ ¬C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬E ∨ ((E ∨ C) → (E → B))) ∧ ((¬D ∨ (⊥ ∨ A)) ∨ ((⊥ ∨ B) ∨ ¬C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(((D → D) ∨ (C ∧ E)) ∨ ((E ∨ E) → (⊤ ∧ C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B ∨ B) ∨ ¬(B ∨ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(Q(c, b) → ((⊥ ∨ R(b, b)) ∧ ¬P(b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(A ∧ A) ∨ (¬⊤ → ⊤))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬P(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E → (B ∧ D)) ∧ ¬¬A) ∧ (((B ∧ B) ∧ E) → ((D ∨ E) ∧ (A → A))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬D → ¬¬D) ∧ (¬¬D → (E → ¬C))) → (¬D → (E → ¬C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((((C ∨ B) ∧ (D ∧ A)) ∨ ((D ∨ C) ∨ (C ∨ A))) ∧ (¬E ∨ ((C ∨ E) → ¬D))) → (¬E ∨ ((C ∨ E) → ¬D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((A ∨ B) ∨ C) → ¬(C ∧ D)) ∧ (((⊤ → B) ∧ (D ∨ C)) → ((C → A) ∧ (C ∨ B))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(¬(B → ⊥) → ¬(A ∧ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E → (C ∧ A)) ∧ ((A → D) ∧ (A ∧ A))) → ((E → (C ∧ A)) ∧ ((A → D) ∧ (A ∧ A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∧ (D ∧ ⊤)) → (D ∧ ⊤))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬¬(P(c) ∨ P(c, c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬((D → C) ∨ (D ∧ D)) → ((((E → D) ∨ (D ∨ C)) ∨ ((D ∧ B) ∧ (⊤ ∧ B))) ∨ ¬((D → C) ∨ (D ∧ D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E → D) ∧ ¬E) ∧ ((E ∧ D) → (B ∨ D))) ∨ (((E → E) → (A ∨ A)) ∧ ¬¬A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊥ ∧ C) → ((B ∧ B) ∨ (⊥ ∧ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(P(a, c) ∧ ((P(c) → P(a)) → Q(a)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(B ∨ ¬B)",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((C ∨ C) → A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬C → (C ∧ ⊤)) ∧ ((C ∧ ⊤) → (D → C))) → (¬C → (D → C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A → B) ∧ B) ∨ ¬⊤)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀y.(Q(b) ∨ P(y, y))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊥ → C) → ((E ∧ A) ∨ (⊥ → C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A ∧ C) ∧ (A ∧ ⊥)) ∧ ((D → ⊥) ∧ (A → A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((E ∨ C) → (D ∨ C)) ∧ ((B ∧ B) → ¬D)) → ((B ∧ B) → ¬D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((∃x.P(x) ∨ (P(b) → Q(a, a))) ∨ (∀y.P(a, y) → ¬Q(a, a))) ∧ (((Q(b) ∧ R(c, a)) → (Q(c, a) → Q(a))) → ((Q(b) ∨ Q(c, b)) ∨ (P(b) → R(c)))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E → A) ∧ (D ∧ E)) → (E → A))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B → A) ∨ ¬(B → A))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C ∧ (B → E)) → ((A → B) ∧ ¬⊤)) ∧ ((¬B → (B ∨ C)) → ¬(E ∧ B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((C ∧ ((D ∧ D) ∨ (C ∨ A))) → C)",
+      "label": "valid"
+    },
+    {
+      "formula": "(Q(b, a) → (Q(c, a) ∨ R(c, a)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → C) → (⊥ ∧ A)) → (¬(⊥ ∧ A) → ¬(A → C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "∀x.Q(x, x)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬A ∨ (A ∧ A)) → ((B ∧ B) ∨ (E ∨ E))) ∨ ¬((¬A ∨ (A ∧ A)) → ((B ∧ B) ∨ (E ∨ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C ∨ B) ∧ ¬A) ∨ ((C ∨ C) → (B ∨ ⊥)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((⊥ → A) ∨ (⊤ ∧ B)) ∧ (B ∧ ¬A)) → ((((⊥ → A) ∨ (⊤ ∧ B)) ∧ (B ∧ ¬A)) ∨ (A → ¬(E ∧ C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(D → (A → D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬E → (E ∧ C)) ∧ ((C ∨ E) → (C ∨ B))) ∨ (((C ∨ A) → (C ∨ D)) → ((A ∨ B) ∨ (B ∨ E))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀x.∀z.∀y.(Q(b, z) → R(y))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬E ∧ (A → C)) → ((E ∨ B) ∧ ¬⊤)) ∨ ¬((¬E ∧ (A → C)) → ((E ∨ B) ∧ ¬⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬¬(D ∨ A) ∨ ¬((D → C) → (A ∧ E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬A ∨ E) ∧ ((E ∧ A) ∧ (E ∧ D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(R(a) → Q(a))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → ((E ∧ B) ∧ (A → B))) ∧ ¬A) → ¬A)",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(R(c, b) ∧ R(c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬¬((D ∧ ⊤) ∧ ¬A) → ¬((D ∧ ⊤) ∧ ¬A))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((R(b, b) ∨ P(b)) ∨ (Q(a) → Q(a, b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬¬B ∧ (¬¬B → (¬C → (C ∨ E)))) → (¬C → (C ∨ E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((E → (C ∨ C)) ∧ ((C ∧ E) ∨ (B ∧ E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B ∧ A) ∨ ¬⊥)",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∨ A) ∧ (E ∧ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬⊥ → (D → D)) → (¬(D → D) → ¬¬⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬((B ∧ A) ∨ (D ∨ D)) ∧ (((C ∨ D) ∧ (A ∨ E)) ∧ ((A → C) ∧ (⊤ ∧ D))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((P(a) ∧ ∃z.R(b)) ∨ (∃x.P(c) ∨ ¬⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬¬(B ∨ C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊥ ∧ ⊥) → (⊥ ∧ ⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬C ∨ (A → E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((C ∧ C) ∨ (⊤ ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(R(c, b) ∧ Q(c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A ∧ ⊥) → (⊤ ∧ D)) → (¬(⊤ ∧ D) → ¬(A ∧ ⊥)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E → B) → (A ∨ E)) ∨ A) ∧ (((C ∧ A) ∨ (B ∧ E)) ∨ ((C → B) → ¬D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((D ∨ A) ∨ (A ∧ A)) → (D ∧ ¬E)) ∧ ((D ∧ ¬E) → (¬D ∨ ¬C))) → (((D ∨ A) ∨ (A ∧ A)) → (¬D ∨ ¬C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(∀y.⊥ ∧ (Q(b) → R(b, c)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(D ∨ D) → (¬(D ∨ D) ∨ (¬E → (B ∨ D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((P(c, c) ∨ P(a)) ∧ (⊤ ∧ P(b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(Q(b, c) ∨ (R(c, c) → P(c, a))) → (¬(R(b, c) → P(b, a)) ∧ ∃z.(P(a, c) ∧ R(z, z))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬C → C)",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∧ E) ∨ (A ∧ A)) → ((B ∧ E) ∨ (A ∧ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((D ∧ E) ∧ (D ∧ B)) ∧ ((B → B) → (⊤ → ⊥))) ∧ (¬A → ((B ∧ D) ∧ (E ∨ C))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀y.((⊥ ∧ ⊤) ∧ ∃y.Q(b, b))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬((E → B) → ¬C) → ((E → B) → ¬C))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E ∨ A) → ¬E) ∧ (¬E → (E ∧ D))) → ((E ∨ A) → (E ∧ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "A",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C ∧ (A ∧ D)) ∨ E) → ((C ∧ (A ∧ D)) ∨ E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((E ∧ A) → (C ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬D ∧ (E ∨ A)) → (¬D → ¬C)) ∧ (((D ∧ B) ∧ (C ∧ E)) ∧ ((⊥ ∨ A) → (⊤ → C))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∧ A) → (A ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "((D → ((A ∨ ⊤) ∧ (A ∧ C))) ∧ (((D → ⊥) ∨ (E → E)) ∨ ¬(C ∨ A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A ∧ B) → (B → D)) ∧ C) ∧ ¬((⊤ ∧ C) ∧ (⊥ ∧ E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬C",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬⊤ → (R(c) ∨ R(c, c)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬¬A → ((¬D → ¬A) ∨ ¬¬A))",
+      "label": "valid"
+    },
+    {
+      "formula": "Q(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬B ∨ (E ∧ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((D → A) ∨ (D ∨ E)) → (¬D ∧ B)) → ((((D → A) ∨ (D ∨ E)) → (¬D ∧ B)) ∨ (((E → A) → (C ∨ E)) ∨ ((B ∨ A) ∧ (A ∧ D)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C → D) → (C ∧ B)) → (¬(C ∧ B) → ¬(C → D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A ∨ E) ∧ (C ∧ C)) ∨ ((E → ⊥) ∧ (B ∨ C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊤ ∧ (B ∧ E)) ∧ (C ∨ (C ∨ E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬C",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((E → E) → (B → E)) ∧ ((B → E) → ¬C)) → ((E → E) → ¬C))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬(C ∧ D) ∧ ((D → E) ∧ (D ∨ B))) → ¬(C ∧ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∧ E) → ((B ∧ E) ∨ ⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬¬P(c, c)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((C ∧ E) ∧ (B → ⊤))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B → ((E → E) → (C ∧ D))) → (((E → ⊤) ∧ (B ∧ A)) ∨ ((B ∧ A) → (B → ⊤))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∧ B) → (⊤ ∨ E)) ∨ ((A → B) ∧ ¬D))",
+      "label": "valid"
+    },
+    {
+      "formula": "((R(b, a) → R(b)) ∧ (Q(b, b) ∨ R(a)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((⊥ ∨ B) → E) → D) ∧ (D → ((B ∨ ⊥) ∧ (B ∧ A)))) → (((⊥ ∨ B) → E) → ((B ∨ ⊥) ∧ (B ∧ A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((C ∧ E) ∨ ¬D) ∧ ((B → A) ∨ (A ∨ E))) → ¬((C ∨ ⊤) → (A → A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E → ⊥) → (E → ⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C → C) → (B ∧ E)) ∧ ((A ∧ C) ∨ (C ∨ A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(⊤ ∨ B) ∨ ¬¬(⊤ ∨ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "((E → A) → ¬A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀y.(∃z.¬⊥ ∧ ((Q(c) ∨ P(b)) ∨ (Q(b) ∨ ⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((P(c, a) → P(a)) → ∀y.R(c)) ∧ P(b))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((⊤ ∨ (⊤ ∨ ⊥)) → ¬(D → C)) ∧ (¬(D → C) → ⊥)) → ((⊤ ∨ (⊤ ∨ ⊥)) → ⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬(A ∧ C) → (¬E → (⊤ ∨ C))) → (((E ∧ D) → B) ∨ ((A ∨ ⊥) ∧ (E ∨ E))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((((A ∨ D) ∧ (B ∧ E)) ∧ (¬C ∨ (A ∧ A))) → (((D ∧ A) → (C → D)) → (E ∨ (B → A)))) ∧ ((((D ∧ A) → (C → D)) → (E ∨ (B → A))) → A)) → ((((A ∨ D) ∧ (B ∧ E)) ∧ (¬C ∨ (A ∧ A))) → A))",
+      "label": "valid"
+    },
+    {
+      "formula": "⊥",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀x.(P(b) ∨ Q(c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∨ B) ∨ (C ∨ A)) → (((D ∨ B) ∨ (C ∨ A)) ∨ ¬(E ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(A → A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬(A ∧ D) ∨ B) ∧ (((D ∨ E) ∨ (C → E)) ∨ ((D → ⊥) → (C ∨ E)))) → (((D ∨ E) ∨ (C → E)) ∨ ((D → ⊥) → (C ∨ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬D ∧ (A ∨ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∨ B) ∨ (B ∧ B)) ∨ ((B → E) ∧ ¬A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(A → E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B ∧ ((E ∧ C) → (A → B))) ∧ ((¬D ∧ (D ∨ ⊥)) ∨ ¬(E → A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬D → (C ∨ ⊥)) → (¬A ∨ (E ∨ E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(((⊤ ∧ D) ∧ (A ∨ D)) → ((D → E) → ¬⊤))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B → (A ∨ C)) → ¬C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A ∧ C) → (B ∧ D)) → (¬(B ∧ D) → ¬(A ∧ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((⊥ → D) → ¬B) ∧ (¬B → (C → D))) → ((⊥ → D) → (C → D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E ∧ C) ∧ (B ∨ C)) → ¬(A → A)) → (¬¬(A → A) → ¬((E ∧ C) ∧ (B ∨ C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬(⊥ ∧ E) ∧ ((C ∧ D) ∨ (D ∧ E))) ∧ (((E → A) → (C → C)) ∨ ((A → E) ∧ (D ∨ A))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬((E ∨ B) → (⊤ → D)) ∧ (¬((E ∨ B) → (⊤ → D)) → (¬(C → B) ∨ ¬(C ∧ ⊤)))) → (¬(C → B) ∨ ¬(C ∧ ⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((E → (D → E)) ∨ ¬(E → (D → E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((D ∨ A) ∧ (C → B)) ∨ ((B ∨ B) → ¬C)) ∨ (¬(D ∨ E) ∧ ((E ∨ E) ∨ (B ∨ E))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬((D ∧ B) ∨ (A ∧ C)) → (((D → A) ∧ (E → C)) → ((E ∧ E) → (E ∧ B)))) → (¬(((D → A) ∧ (E → C)) → ((E ∧ E) → (E ∧ B))) → ¬¬((D ∧ B) ∨ (A ∧ C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((E ∧ (C ∧ C)) ∨ ¬(E ∧ (C ∧ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A ∧ E) ∧ (⊥ → D)) → ((C ∧ C) ∨ (⊥ → D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬B ∧ ¬C) ∧ ((E ∧ ⊥) ∨ (C → ⊤))) → (¬B ∧ ¬C))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬D → (A ∧ E)) → (¬(A ∧ E) → ¬¬D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(D → (¬(C → B) ∨ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C ∧ C) ∨ (C → C))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((A ∨ D) ∧ ⊤) ∨ ⊤) ∧ ¬((E ∧ B) ∧ ¬A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬¬(⊤ ∧ D)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(C → E) → (C → E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((B ∨ E) ∧ C) → (⊥ ∧ (E ∧ A))) → ((¬B ∧ (C → A)) → (¬⊥ ∧ (B ∧ E))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∨ A) → (B → D)) → (¬(B → D) → ¬(D ∨ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(¬B ∨ (B ∨ E)) ∨ A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((E ∧ D) → (D → E)) ∧ ((D → E) → ¬E)) → ((E ∧ D) → ¬E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((R(b) ∨ Q(b, a)) ∨ (R(a, a) → Q(a)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬((D ∨ A) → (E ∧ B)) → ((D ∨ A) → (E ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E → D) ∧ (E ∨ B)) ∨ ((E → B) → (A ∨ A))) → (((A ∧ E) ∧ (C ∧ B)) ∧ E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∨ A) → ¬C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(E → D)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((¬A ∨ ((B → D) ∨ (B ∨ ⊥))) → ((¬D → ¬A) ∨ ¬(C → E))) ∧ (((¬D → ¬A) ∨ ¬(C → E)) → (E → ((B ∧ C) → (⊤ ∧ C))))) → ((¬A ∨ ((B → D) ∨ (B ∨ ⊥))) → (E → ((B ∧ C) → (⊤ ∧ C)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬⊤ ∧ (E ∨ C)) ∧ ((¬⊤ ∧ (E ∨ C)) → ((B ∨ C) → (⊤ ∧ B)))) → ((B ∨ C) → (⊤ ∧ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬¬(A → B) → (A → B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬R(a) ∧ (P(a, b) ∧ Q(c)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((D ∧ A) ∨ ¬(D ∧ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "Q(b, b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((Q(b, b) → P(b, a)) ∨ (Q(a, a) ∧ ⊤))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → D) ∧ (D ∨ A)) → (A → D))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((C → D) ∨ ¬D)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬⊤ → (¬C ∨ ¬⊤))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((⊤ → B) ∧ (C ∧ D)) ∨ ¬((⊤ → B) ∧ (C ∧ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(¬⊥ → (A ∧ C)) ∧ (¬¬D ∨ ((C → ⊤) ∨ (B → E))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((((E → ⊤) → (A ∧ B)) ∨ ¬(E ∨ E)) → (E → ((A ∨ E) ∨ (D ∨ E)))) ∧ ((E → ((A ∨ E) ∨ (D ∨ E))) → (¬B → ((⊤ ∧ C) ∧ (C ∧ B))))) → ((((E → ⊤) → (A ∧ B)) ∨ ¬(E ∨ E)) → (¬B → ((⊤ ∧ C) ∧ (C ∧ B)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬(A ∨ C) ∨ ((B ∨ ⊤) ∧ (E ∨ A))) ∧ ¬¬(A ∧ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B → (((E ∨ E) → (A ∨ ⊥)) ∧ (¬E ∨ (E ∨ ⊤)))) ∧ ((((E ∨ E) → (A ∨ ⊥)) ∧ (¬E ∨ (E ∨ ⊤))) → (¬(C ∨ B) → (¬C ∧ (B ∨ D))))) → (B → (¬(C ∨ B) → (¬C ∧ (B ∨ D)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬⊤ → (Q(c, a) → P(b)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(⊥ ∨ D) ∨ ((E ∨ E) → D))",
+      "label": "valid"
+    },
+    {
+      "formula": "A",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬¬A",
+      "label": "not_proved"
+    },
+    {
+      "formula": "P(b, c)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B ∨ D) → (E ∨ ⊤)) → (¬(E ∨ ⊤) → ¬(B ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊥ ∨ B) ∨ B)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(C → ((((D → B) ∧ (A ∨ B)) ∨ ¬(A ∧ A)) ∨ C))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D ∨ (A ∨ D)) ∨ ((B ∨ E) ∧ (D ∧ E))) → (((E ∨ E) → (E ∨ C)) ∨ ((E → C) → (⊤ → B))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D → (⊤ → D)) → ¬(⊥ → E)) ∧ (((B ∧ B) ∨ ¬C) → (¬A ∧ ¬E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(P(b, b) ∨ ∀y.R(y, y))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((C → C) → (E ∨ E)) ∧ ((E ∨ E) → (C ∨ B))) → ((C → C) → (C ∨ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C ∧ D) ∨ (B → C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((P(a, a) ∨ P(a, b)) → (R(b, b) ∨ Q(b))) → ¬¬P(b))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((⊥ ∧ E) ∨ ¬E) ∨ D)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((Q(b) → R(b, a)) ∧ (P(a) → ⊥))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((C → C) → (E → ⊤)) ∧ ((E → ⊤) → (B ∨ C))) → ((C → C) → (B ∨ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C ∨ C) → (¬B ∨ (C ∨ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∨ A) ∧ ¬B) → (((B ∨ A) ∧ ¬B) ∨ C))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B → ⊤) ∨ (D → A)) ∨ ¬((B → ⊤) ∨ (D → A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((A → D) → (E ∨ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C ∧ D) → ¬E) → (¬¬E → ¬(C ∧ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((C → (B ∧ E)) ∨ ((D ∧ E) ∨ (E ∨ B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬E",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((D ∨ A) ∧ (E → D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "R(c)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬((¬E ∨ (B ∨ E)) ∧ ((A ∧ E) ∧ A)) → ((¬E ∨ (B ∨ E)) ∧ ((A ∧ E) ∧ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(⊤ ∨ ¬⊤)",
+      "label": "valid"
+    },
+    {
+      "formula": "(((E ∨ D) ∧ (A ∧ E)) ∨ ((E ∨ E) ∨ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((Q(c) → Q(c)) ∨ (P(b) → Q(c, c)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A ∧ A) ∨ ¬(A ∧ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A ∨ B) ∧ ((A ∨ B) → (B ∨ A))) → (B ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∧ ¬¬(C → C)) → E)",
+      "label": "valid"
+    },
+    {
+      "formula": "D",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B ∨ D) ∧ E) → (B ∨ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((D ∧ ⊥) → C) ∧ ¬¬E) → ((D ∧ ⊥) → C))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(¬(B → D) ∧ ¬(A ∨ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((C ∧ B) ∨ (D → E)) → ((E → D) ∧ (A → E))) → (¬A ∨ (((C ∧ B) ∨ (D → E)) → ((E → D) ∧ (A → E)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A → A) ∧ (E ∧ B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬((C → E) ∧ (C → B)) → ((C → E) ∧ (C → B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C ∨ D) ∧ (C ∧ ⊥)) → ((C ∨ D) ∧ (C ∧ ⊥)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(D ∧ (⊥ → ⊤))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((B ∨ A) → (B ∨ C)) ∧ (¬A → (B → C))) → ((B ∨ A) → (B ∨ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(∀x.R(x, x) ∧ ¬∃x.R(b))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∧ (E → (B → A))) → (B → A))",
+      "label": "valid"
+    },
+    {
+      "formula": "C",
+      "label": "not_proved"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(¬⊥ ∧ E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∧ ⊥) → ((E ∧ ⊥) ∨ (D ∨ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A → ¬D) ∧ ((A → C) → (⊥ → D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → C) ∧ (⊥ ∧ E)) → (A → C))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D ∨ A) ∧ (⊤ ∧ E)) → (D ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((A → C) ∨ D) → ((E → E) ∧ (⊥ → E))) → (¬((E → E) ∧ (⊥ → E)) → ¬((A → C) ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((R(a) ∧ Q(a)) ∧ ∀z.¬(P(c) ∧ P(z)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D → A) → (C ∨ E)) → (((D → A) → (C ∨ E)) ∨ ¬(D ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E ∧ D) ∨ (C → C)) ∧ ((B → D) → (⊥ ∧ E))) ∨ (¬B ∧ ((C ∧ C) → (E → A))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B → A) ∨ ¬A) → (((B → A) ∨ ¬A) ∨ ((B → D) ∧ (B ∨ A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "⊥",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬E → (⊤ ∧ (C ∧ ¬B))) → (¬(⊤ ∧ (C ∧ ¬B)) → ¬¬E))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A → D) ∧ (⊥ ∧ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B ∨ E) ∧ (E → A)) → (E → A))",
+      "label": "valid"
+    },
+    {
+      "formula": "Q(b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∨ E) → E) → ((E → (B → E)) ∨ ((E ∨ E) → E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(((C ∧ B) → (C → B)) ∨ ((B → C) → A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → ⊤) ∧ (D ∨ C)) → (((A → ⊤) ∧ (D ∨ C)) ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "(R(b, b) ∧ ∃z.P(z, c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(((D → B) ∧ (C ∨ B)) ∨ (¬A ∨ C)) → (((D → B) ∧ (C ∨ B)) ∨ (¬A ∨ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A ∧ B) ∨ (D ∨ C)) → ¬(B ∧ B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((E ∧ B) → ¬D) → ((B → B) → ¬A)) → (A ∨ D)) → (¬(A ∨ D) → ¬(((E ∧ B) → ¬D) → ((B → B) → ¬A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∧ B) ∨ ¬E) ∧ ¬¬C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B → ⊤) ∧ (E → A)) → ((B → ⊤) ∧ (E → A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(∃z.∀y.⊥ → P(b, b))",
+      "label": "valid"
+    },
+    {
+      "formula": "⊥",
+      "label": "not_proved"
+    },
+    {
+      "formula": "D",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(¬B → ¬B) → (¬B → ¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E ∨ A) ∨ (D ∧ E)) ∨ D) ∨ ((¬E → D) → ((B ∨ E) ∨ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬∃y.(¬R(y, y) ∨ (⊥ ∧ Q(b, c)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬E → (E ∨ D)) ∨ ((D ∧ A) ∨ (C ∨ A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(B ∨ A) ∧ ((D ∧ D) ∨ (E ∨ B))) → ((D ∧ D) ∨ (E ∨ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C ∧ E) ∧ (E ∨ E)) ∨ (D ∧ (C ∧ C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(E ∧ B) ∨ E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬⊤ ∧ (B → ⊥)) ∧ ((D → E) ∧ (D ∧ D))) → (¬(⊤ → ⊤) → ((D ∨ B) ∧ (A → B))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬¬D",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((B ∨ C) → (A ∨ D)) ∧ ⊥) → ((B ∨ C) → (A ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬(B ∧ B) ∨ A) → (¬(B ∧ B) ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬E ∧ (⊤ → ⊤))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → (((A ∧ A) ∧ (D → A)) ∧ ((E ∨ C) ∨ (B ∧ C)))) ∧ ((((A ∧ A) ∧ (D → A)) ∧ ((E ∨ C) ∨ (B ∧ C))) → (¬E ∧ ((B ∧ ⊤) ∨ (B ∧ ⊤))))) → (A → (¬E ∧ ((B ∧ ⊤) ∨ (B ∧ ⊤)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "R(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B → (A ∧ D)) → (¬(A ∧ D) → ¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "((D ∨ C) → (E ∨ B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((∃y.R(b, a) ∧ (P(b, b) ∧ Q(c, c))) → ∀x.(Q(a) → P(x)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(∀y.∃z.(P(b, y) → P(z)) ∨ ∀x.(∀x.P(x) → P(a)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬B → (C ∧ D)) → (¬B → (C ∧ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬C → (D ∧ B)) → ((E ∨ D) ∧ (D ∧ B))) → (((D ∧ A) ∧ ¬A) ∧ ((B ∨ A) → ¬D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(E ∨ D) → (E ∨ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(¬(E ∧ D) ∨ ((A ∧ A) → ¬C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∧ E) ∧ ((E ∧ E) → (A → ⊥))) → (A → ⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "(R(b) ∧ (Q(c) → R(a)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(((B ∨ B) ∧ (B → E)) → ((B ∧ D) ∨ (E ∨ A))) → (((B ∨ B) ∧ (B → E)) → ((B ∧ D) ∨ (E ∨ A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬(A → C) ∨ (¬E ∧ (D ∨ A))) ∧ (((B ∨ C) ∨ (A ∧ B)) ∧ ((D ∧ B) → (A ∨ D))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((B ∨ (A ∨ C)) ∨ ((D ∨ D) → ¬D)) → (⊥ ∨ ((E ∨ ⊤) ∨ (D → C)))) ∧ ((⊥ ∨ ((E ∨ ⊤) ∨ (D → C))) → (((E ∧ E) → (A → B)) → ((C ∨ E) ∧ (D ∨ E))))) → (((B ∨ (A ∨ C)) ∨ ((D ∨ D) → ¬D)) → (((E ∧ E) → (A → B)) → ((C ∨ E) ∧ (D ∨ E)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((E ∨ C) → (A → D)) ∨ B)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "⊤",
+      "label": "valid"
+    },
+    {
+      "formula": "((∀x.(R(a, b) → P(a, c)) ∨ ∀y.(R(a, c) ∨ Q(y))) ∨ (P(b, b) ∨ R(b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬((C ∨ (D ∧ B)) ∧ ¬D) → ((C ∨ (D ∧ B)) ∧ ¬D))",
+      "label": "valid"
+    },
+    {
+      "formula": "∀y.((P(a) ∧ Q(y)) ∨ R(y, c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(⊥ ∧ D) ∧ ((D → D) ∧ (E → E))) → ((¬(⊥ ∧ D) ∧ ((D → D) ∧ (E → E))) ∨ (((B → C) ∧ (B ∧ C)) ∧ ¬¬D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((⊥ ∧ R(a)) ∧ ∃z.P(c, z)) ∧ ∃z.¬Q(z, b)) → (∀y.(Q(y, c) ∧ R(y)) ∧ (∀x.Q(x, x) ∨ Q(b))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((Q(b, a) ∧ R(c)) → ¬⊤) ∧ ((P(c) ∨ P(c)) → ¬R(b, a)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(C ∧ (E ∨ (D → C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E → E) ∨ ¬D) ∨ ((A ∨ C) → (E ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((C ∨ A) ∧ (B → B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B ∧ ((E ∨ D) → (A → E))) → B)",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬D ∧ (C ∨ ⊥))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B ∧ C) ∧ E) → (B ∧ C))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((P(c) → ⊤) → (Q(b) ∨ Q(c, a))) → ¬(Q(c) ∨ P(b, a)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B ∧ (D → D)) ∧ ¬(D ∧ C)) → (B ∧ (D → D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((C → D) → ¬B)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E → (D → E)) ∧ ((D → E) → (A ∨ B))) → (E → (A ∨ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "C",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬((E → D) → ¬D)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬E → (¬E ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "((A ∨ B) → (A ∨ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬⊤ ∧ C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((B → ((A ∧ A) ∧ (B → E))) → ¬((C ∨ A) → ¬D)) ∧ (¬((C ∨ A) → ¬D) → (((B ∧ B) → (A → E)) → (B ∧ (D → ⊤))))) → ((B → ((A ∧ A) ∧ (B → E))) → (((B ∧ B) → (A → E)) → (B ∧ (D → ⊤)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∧ (¬C ∧ (A → B))) ∧ (¬(A ∨ D) ∧ (¬A ∨ (D ∨ B))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊤ → B) ∨ ¬(⊤ → B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(¬E ∨ ⊤) ∧ ((¬A ∨ (A → E)) ∨ ((D ∨ D) → (A ∨ C))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((A → E) → (D → D)) → ((⊥ ∧ B) ∧ (B → B))) ∧ ¬(¬E ∧ (⊥ ∧ A))) → ¬(¬E ∧ (⊥ ∧ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E ∨ E) ∧ ¬⊤) ∧ ((D → A) ∧ (E ∨ B))) ∨ (B ∧ (C → (A ∨ A))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((A ∧ B) ∧ (B ∧ C)) ∨ ⊤) → ((¬⊤ ∧ (C ∨ D)) ∧ ((A ∨ E) ∨ (A → A)))) → (¬((¬⊤ ∧ (C ∨ D)) ∧ ((A ∨ E) ∨ (A → A))) → ¬(((A ∧ B) ∧ (B ∧ C)) ∨ ⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬¬((A ∧ E) → (D ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "∃z.(∀x.(R(a) ∨ R(x)) → ∀y.(Q(a) → R(z)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((Q(b, c) ∨ Q(b, b)) ∧ (⊥ ∧ ⊥))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀x.∀z.P(c)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "D",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((B ∨ C) → (C ∨ B)) ∧ ((⊤ ∨ ⊥) ∧ (E ∨ E))) ∧ (¬¬A → ((C → C) ∨ (A → A)))) → (((B ∨ C) → (C ∨ B)) ∧ ((⊤ ∨ ⊥) ∧ (E ∨ E))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬R(a, b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C → A) → B) ∧ (B → (A → A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((B ∧ C) ∧ (B ∨ D)) → (B ∨ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((D → B) → (E ∧ D)) ∧ (((D → B) → (E ∧ D)) → ((D ∧ B) → (⊥ ∧ D)))) → ((D ∧ B) → (⊥ ∧ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬P(c, c) ∨ (P(a) → Q(b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A ∧ C) → (C → C)) ∨ ((A ∧ C) ∧ (A → A))) → (((A ∧ C) → (C → C)) ∨ ((A ∧ C) ∧ (A → A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "P(a, a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(A ∧ E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊤ ∨ ¬(B ∧ D)) → ((⊤ ∨ ¬(B ∧ D)) ∨ (((A → D) ∧ (A → A)) → ((B → C) → (A → C)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∨ ⊤) ∨ ¬(B ∨ ⊤))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬C ∨ (B ∧ B)) → ((A → D) ∧ (E ∨ D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((A ∨ A) ∧ (C ∧ B)) ∨ ¬¬D) → (((⊤ ∧ B) → (⊤ ∧ E)) → ((B → A) → (E ∨ E)))) → (¬(((⊤ ∧ B) → (⊤ ∧ E)) → ((B → A) → (E ∨ E))) → ¬(((A ∨ A) ∧ (C ∧ B)) ∨ ¬¬D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((E → B) ∧ (⊥ ∧ ⊤)) ∧ ¬¬D) ∨ (((E ∧ A) → (C ∧ A)) ∨ ¬(D → A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((C ∨ A) ∨ (D → D)) ∧ ¬(C ∧ D)) → ((¬⊥ ∨ ¬A) → ((C ∨ D) → (B ∨ A)))) → (¬((¬⊥ ∨ ¬A) → ((C ∨ D) → (B ∨ A))) → ¬(((C ∨ A) ∨ (D → D)) ∧ ¬(C ∧ D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬E ∨ (C → C)) ∧ ((D → ⊥) ∧ (D ∨ C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((⊥ ∨ A) ∧ (C ∧ B)) → (C ∧ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(∀y.P(c, b) ∧ (P(a, a) → P(a, b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((⊥ ∨ A) ∧ (A → A)) ∧ ((A ∧ A) ∨ B)) → (((¬A ∨ (A → B)) ∨ ((E → A) ∧ ¬C)) ∨ (((⊥ ∨ A) ∧ (A → A)) ∧ ((A ∧ A) ∨ B))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((R(c) → (R(b) → P(c))) → ((P(c, b) ∨ ⊥) ∧ ∃z.Q(b, c)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((R(a, b) ∧ R(b, a)) → (Q(a, a) ∨ ⊤))",
+      "label": "valid"
+    },
+    {
+      "formula": "P(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(C ∨ ¬C)",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬C ∧ ¬C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(C ∨ A) → ((E ∨ C) ∧ (B → B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬C → ((B ∧ B) ∨ ¬C))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬((E → B) → B) → (¬((E → B) → B) ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "((Q(b, a) ∨ ∀z.Q(z, c)) ∧ ((P(c) ∨ R(b, a)) ∨ (R(a) ∧ P(b, a))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((A → A) ∧ (E ∨ B)) → ((C ∨ B) ∧ B)) → (¬((C ∨ B) ∧ B) → ¬((A → A) ∧ (E ∨ B))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∨ E) ∧ (C ∨ ⊥)) ∨ (D → (D → E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((E ∨ C) ∧ (D → B)) → ¬(B ∨ B)) ∧ (C ∧ (¬B → (C ∨ ⊤)))) → (C ∧ (¬B → (C ∨ ⊤))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C ∧ ⊥) → (A ∨ E))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D ∨ ⊤) → A) ∧ B)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∃z.¬∀z.⊥",
+      "label": "valid"
+    },
+    {
+      "formula": "((E ∧ B) ∨ (A ∧ ⊥))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((⊤ ∨ D) → (⊤ ∨ D)) → ¬(A → D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "∀z.⊤",
+      "label": "valid"
+    },
+    {
+      "formula": "((D ∧ B) ∨ (B → B))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬C",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(D ∧ ((B → D) ∧ (E ∨ D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∧ C) ∧ (D → C)) → ¬(⊤ ∨ ⊥))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((B → C) ∧ (⊥ → B)) ∧ ((B ∨ D) ∧ (A ∨ C))) ∧ (((B ∧ E) ∧ ¬B) → ((A ∨ A) ∧ (C ∨ C))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((C ∧ E) ∧ ¬E) → ((⊥ ∨ A) → (D ∧ C))) ∧ (((⊥ ∨ A) → (D ∧ C)) → ((C ∨ D) ∧ ¬A))) → (((C ∧ E) ∧ ¬E) → ((C ∨ D) ∧ ¬A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((D ∨ D) ∧ (A ∨ C)) → (¬E → (A → D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(R(c, c) → Q(b))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(B → D) ∧ (¬(B → D) → ((⊤ ∧ D) ∨ (⊤ → A)))) → ((⊤ ∧ D) ∨ (⊤ → A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((((C ∨ A) ∨ (E ∧ C)) ∨ ((E ∧ E) → (A → C))) → (((C → B) ∨ (A → E)) → ((⊥ → D) ∨ ¬B))) → (¬(((C → B) ∨ (A → E)) → ((⊥ → D) ∨ ¬B)) → ¬(((C ∨ A) ∨ (E ∧ C)) ∨ ((E ∧ E) → (A → C)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "⊤",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∨ E) ∧ (B ∨ A)) ∨ ((E ∧ A) → (E ∧ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(P(b) ∨ R(b)) → (Q(a) ∧ ∀z.R(z)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(B ∨ (E → A)) → ¬((B ∧ E) → ¬⊤))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬¬B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(E → A) ∧ ((A → D) ∨ (D ∧ C))) → ((A → D) ∨ (D ∧ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(⊤ ∨ A) ∨ ((A → D) → (E ∨ ⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊥ ∧ P(a, c)) ∧ Q(b))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∧ A) ∧ (C ∧ B)) ∨ ((D → E) ∧ ¬B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬C → (¬C ∨ (A ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((E ∨ D) → (D ∧ B)) → A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((C ∨ B) ∨ (D ∧ B)) ∧ (((C ∨ B) ∨ (D ∧ B)) → ¬¬E)) → ¬¬E)",
+      "label": "valid"
+    },
+    {
+      "formula": "((E ∧ B) → (E ∨ C))",
+      "label": "valid"
+    },
+    {
+      "formula": "(D ∨ (((D ∧ ⊤) ∨ ¬B) → ¬E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∨ ⊥) ∧ A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊤ ∧ D) → (⊤ ∧ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "⊥",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊤ ∨ D) → ((D ∧ E) ∨ (⊤ ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∧ B) → ¬D) ∨ (C ∨ (B ∨ E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "A",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬C ∨ (D ∧ (D ∨ D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((C ∧ (¬(D ∧ B) → (D ∧ (D → ⊥)))) → (¬(D ∧ B) → (D ∧ (D → ⊥))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((E → A) → (B ∨ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∧ (C ∧ A)) ∧ (B ∨ (A → A))) → (((D ∧ (C ∧ A)) ∧ (B ∨ (A → A))) ∨ (((E ∧ ⊥) ∨ (⊤ ∨ E)) → (⊥ → (B → E)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "⊤",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((A ∨ C) ∧ (C → B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬D → (A ∧ C)) ∧ D) ∨ ((D ∧ (⊤ ∨ B)) → ((D ∧ D) ∨ (B → C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(D ∧ (E ∧ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((A ∨ (⊤ ∨ A)) ∨ ((C ∨ A) ∨ ¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((A ∧ D) ∧ (A ∧ D))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → B) ∧ A) ∨ (¬A ∨ (B → D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(D → ((D ∧ C) ∧ (⊤ ∧ A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬((A → D) ∧ (⊤ ∨ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((A ∧ B) → (A ∧ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬¬((A → B) ∧ ¬B)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → B) ∨ ⊤) → ((⊤ ∨ D) ∨ (D ∧ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "P(b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((C → A) ∧ (A → ¬¬(E ∨ C))) → (C → ¬¬(E ∨ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬E ∧ ¬C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∧ A) → (C → C)) → (¬(C → C) → ¬(D ∧ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "R(b, c)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(¬E ∧ (⊤ ∧ D)) → (¬E ∧ (⊤ ∧ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∨ (C ∧ A)) ∧ ¬(⊤ → ⊥)) → (¬(B ∨ C) → ¬A))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(((A ∨ C) → (D → ⊥)) ∨ E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬((¬D ∧ (B → B)) ∨ ((B ∨ D) → (B ∨ D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "C",
+      "label": "not_proved"
+    },
+    {
+      "formula": "¬(¬P(c, b) → (Q(c) ∧ R(c)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬(D → C) ∧ ((C ∨ A) ∨ (B → ⊤))) ∧ ((¬(D → C) ∧ ((C ∨ A) ∨ (B → ⊤))) → ¬((C ∧ D) → (D → C)))) → ¬((C ∧ D) → (D → C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∨ D) → (B → B))",
+      "label": "valid"
+    },
+    {
+      "formula": "((∀z.R(a) ∧ (Q(b) ∨ ⊤)) ∧ ∀x.∀y.P(c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(((E ∨ B) ∨ (E ∧ A)) ∨ ((A ∨ A) ∧ (⊥ ∧ C))) → (((E ∨ B) ∨ (E ∧ A)) ∨ ((A ∨ A) ∧ (⊥ ∧ C))))",
+      "label": "valid"
+    },
+    {
+      "formula": "Q(b, b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A ∧ ⊤) ∧ (E ∧ D)) → (A ∧ ⊤))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((¬C ∧ (E → D)) → ⊤) → (¬⊤ → ¬(¬C ∧ (E → D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((C ∧ C) ∧ (D ∧ ⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬((⊤ → Q(a)) → (R(c, a) ∧ Q(c, b))) ∨ ((P(b) ∧ (P(b, a) ∨ Q(c, b))) ∧ ((R(b, c) → P(c, a)) ∨ R(a))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((A ∧ A) → (B ∧ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬⊥ ∧ (D → D)) ∧ ((A ∨ A) ∨ (C ∨ E)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∧ E) → ¬B) ∨ ¬((D ∧ E) → ¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬D ∨ ¬E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬¬B → ¬B)",
+      "label": "valid"
+    },
+    {
+      "formula": "C",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((E ∨ B) ∧ C) → (¬B → (B → C))) ∧ ((¬B → (B → C)) → (¬C ∧ (C ∨ A)))) → (((E ∨ B) ∧ C) → (¬C ∧ (C ∨ A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬¬(((C ∨ C) → (B ∧ A)) → ((A ∧ A) ∧ (C → B))) → (((C ∨ C) → (B ∧ A)) → ((A ∧ A) ∧ (C → B))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(C ∧ D) → ((E ∧ C) ∨ (E ∨ B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((⊥ ∨ C) → (¬D ∨ (⊥ ∨ C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(A → ((C ∨ A) → (D ∨ B)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((A ∨ D) → ((A ∨ D) ∨ A))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬B → (¬B ∨ ¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((A ∨ ⊥) → (C → C)) ∨ ((A ∨ B) ∧ (A ∧ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(A → B) → (¬E ∨ (D ∨ C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((Q(b) → P(c)) → (R(b, a) ∨ P(b, c)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(E ∨ ⊤) ∧ ((C ∧ C) ∨ (A ∧ D))) → ((¬(E ∨ ⊤) ∧ ((C ∧ C) ∨ (A ∧ D))) ∨ ((¬⊥ → (D ∧ D)) ∧ ((⊥ ∧ A) ∨ (C ∧ D)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊤ ∨ (¬A → (E ∨ C))) ∨ ¬((E → A) → ¬E))",
+      "label": "valid"
+    },
+    {
+      "formula": "C",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((A ∧ A) → (C ∧ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "Q(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬¬A → ¬A)",
+      "label": "valid"
+    },
+    {
+      "formula": "((B ∧ B) ∨ ¬(B ∧ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬P(a)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((Q(c) ∧ P(a)) → (Q(c, b) ∧ P(a, c))) ∧ (∃y.Q(y) ∨ (R(c) ∨ Q(b))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∧ C) → (B ∧ A)) ∨ ((D ∧ C) ∧ (⊥ ∨ D)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬((D → C) → C) → ((D → C) → C))",
+      "label": "valid"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(A → A) ∨ B) → (((¬D → (D → ⊥)) → ((A → E) → (E ∨ A))) ∨ (¬(A → A) ∨ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((A ∧ A) → (D ∧ E)) ∧ (((A ∧ A) → (D ∧ E)) → ((A ∨ E) ∨ (E ∧ A)))) → ((A ∨ E) ∨ (E ∧ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬¬((E ∧ ⊤) → (B → C)) → ((E ∧ ⊤) → (B → C)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬A",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((E ∧ (⊥ → ⊤)) → (⊥ → ⊤))",
+      "label": "valid"
+    },
+    {
+      "formula": "(E → A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬B ∧ (C ∧ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬⊥ ∧ (A ∨ E))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬(⊥ → A) ∧ (¬A → (A ∨ C))) ∧ ((¬(⊥ → A) ∧ (¬A → (A ∨ C))) → A)) → A)",
+      "label": "valid"
+    },
+    {
+      "formula": "(((C ∨ B) ∨ (A ∨ ⊤)) ∨ ¬((C ∨ B) ∨ (A ∨ ⊤)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B ∨ D) ∧ (C ∨ C)) → (C ∨ C))",
+      "label": "valid"
+    },
+    {
+      "formula": "((E → (E ∨ C)) ∨ ((E ∨ A) ∨ ¬C))",
+      "label": "valid"
+    },
+    {
+      "formula": "B",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬D → (C ∨ A))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬¬((A ∧ B) ∨ ¬B) → ¬((A ∧ B) ∨ ¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "D",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A ∨ (E → A)) ∧ ((A ∨ (E → A)) → (¬E → (C → B)))) → (¬E → (C → B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((R(b) ∧ Q(c)) → (R(a, b) ∨ ⊥))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬((C ∧ A) ∨ ¬D) → ((C ∧ A) ∨ ¬D))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C → D) ∨ (A → B))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((C ∧ (C → (C ∨ ⊥))) → (C ∨ ⊥))",
+      "label": "valid"
+    },
+    {
+      "formula": "((⊤ → ⊥) ∨ (B ∨ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D → B) ∧ (B → B)) ∧ ((C ∨ ⊤) ∨ (E ∧ ⊤)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((A ∧ A) ∧ ¬⊤) ∧ ((D ∨ C) → (C ∧ A))) ∧ ((D ∧ (B ∨ C)) ∨ ((B ∧ B) → ¬D))) → ((D ∧ (B ∨ C)) ∨ ((B ∧ B) → ¬D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬¬(C ∨ A)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬(B → A) → (B → A))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬B → (¬D ∨ ¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(⊥ ∨ ((A ∧ ⊤) ∧ C))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((C ∨ B) ∨ ¬(C ∨ B))",
+      "label": "valid"
+    },
+    {
+      "formula": "(D ∨ ((C ∨ E) ∨ (A ∧ ⊤)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∧ E) → (C ∨ B)) → (¬(C ∨ B) → ¬(E ∧ E)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((⊤ ∧ B) ∧ (B ∧ ⊥)) ∨ ((C ∧ B) ∨ ¬D)) ∨ (A ∨ ((E ∧ B) ∧ (C ∧ A))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B ∨ B) → ((B ∧ ⊥) ∨ (B ∨ B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "R(a, b)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((¬(E → A) ∧ ¬B) ∧ ¬⊤) → (¬(E → A) ∧ ¬B))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬((C → E) ∧ ¬C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((C → A) ∨ ¬⊥) → ((E ∧ B) ∧ (A → B))) ∧ ((((C → A) ∨ ¬⊥) → ((E ∧ B) ∧ (A → B))) → (((⊤ ∧ ⊤) ∨ (D ∨ C)) ∨ ((D ∨ A) ∧ ¬A)))) → (((⊤ ∧ ⊤) ∨ (D ∨ C)) ∨ ((D ∨ A) ∧ ¬A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(((B → A) ∨ (⊤ ∨ A)) ∨ (B ∧ (A ∧ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((((R(b) ∧ Q(a)) ∨ (Q(c, a) → ⊥)) ∨ (∃y.Q(y) ∨ ¬Q(a))) ∧ Q(b, c))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((B → E) ∨ (A ∧ A)) ∧ ((A ∨ E) → A)) ∧ (((B ∧ D) → (A ∨ E)) ∨ ((D ∧ D) ∧ (A ∧ ⊤))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "⊥",
+      "label": "not_proved"
+    },
+    {
+      "formula": "E",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(C ∧ D) ∨ ¬¬(C ∧ D))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬¬(A ∨ (B ∨ A)) → (A ∨ (B ∨ A)))",
+      "label": "valid"
+    },
+    {
+      "formula": "((¬((C ∨ C) ∨ (B ∨ C)) ∧ (((E ∧ C) → (A ∨ D)) ∨ ((D → D) ∧ (B → A)))) → (((E ∧ C) → (A ∨ D)) ∨ ((D → D) ∧ (B → A))))",
+      "label": "valid"
+    },
+    {
+      "formula": "(¬(B → B) ∧ D)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((A → A) → (E → E)) ∨ ((A ∨ C) ∧ (A → B)))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬(R(c) → ∀x.R(b))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((B ∨ D) → ((E → A) ∨ (B ∨ D)))",
+      "label": "valid"
+    },
+    {
+      "formula": "(A → ¬E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∨ (A ∨ A)) → (¬B → (C ∨ A))) ∧ (((E ∨ D) ∨ (E → B)) ∨ ((C ∧ ⊤) ∨ (B → D))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((D ∧ E) ∧ ¬B) → ¬B)",
+      "label": "valid"
+    },
+    {
+      "formula": "(((((D ∨ E) → (E ∧ C)) ∨ ((D ∨ E) ∧ (A → B))) ∧ E) → (((D ∨ E) → (E ∧ C)) ∨ ((D ∨ E) ∧ (A → B))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((E → E) → ¬E)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬(⊥ ∨ C) ∧ (¬C ∨ (⊤ → C)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((D ∨ D) ∨ A) ∨ ((⊤ ∨ B) → (⊤ ∧ D))) → (¬(A ∧ E) → (B ∧ (A ∨ A)))) → (¬(¬(A ∧ E) → (B ∧ (A ∨ A))) → ¬(((D ∨ D) ∨ A) ∨ ((⊤ ∨ B) → (⊤ ∧ D)))))",
+      "label": "valid"
+    },
+    {
+      "formula": "((C → C) → (¬C → ¬C))",
+      "label": "valid"
+    },
+    {
+      "formula": "(Q(b, b) ∨ ((¬Q(b, c) ∨ (Q(b) ∧ P(c, c))) ∧ Q(a, b)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((((E → E) → B) ∧ ((E → C) → (D ∧ C))) ∧ (¬¬C → (¬A ∧ (D ∨ A))))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((E ∧ E) ∧ ((E ∧ E) → ¬B)) → ¬B)",
+      "label": "valid"
+    },
+    {
+      "formula": "(((((B ∨ A) ∧ ¬E) → A) ∧ (((C ∨ ⊤) → (C ∧ B)) → (¬C → (B → D)))) → (((C ∨ ⊤) → (C ∧ B)) → (¬C → (B → D))))",
+      "label": "valid"
+    },
+    {
+      "formula": "¬¬(B ∧ C)",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(¬¬D → D)",
+      "label": "valid"
+    },
+    {
+      "formula": "((P(b, b) ∧ ⊥) → ∃x.Q(c, c))",
+      "label": "valid"
+    },
+    {
+      "formula": "((∀x.R(c) ∧ (R(b) ∨ P(a, a))) ∧ ∃x.P(a, x))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "((¬(D → A) ∨ B) ∨ (((E → C) ∧ (A ∨ B)) ∧ ¬(D ∧ A)))",
+      "label": "not_proved"
+    },
+    {
+      "formula": "(((((B → B) ∧ (B ∨ A)) ∧ ((E → A) → (A → E))) → ¬((C ∨ D) → (A ∧ B))) → (¬¬((C ∨ D) → (A ∧ B)) → ¬(((B → B) ∧ (B ∨ A)) ∧ ((E → A) → (A → E)))))",
+      "label": "valid"
+    }
+  ]
+}
