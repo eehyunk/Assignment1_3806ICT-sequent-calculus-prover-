@@ -1,5 +1,5 @@
 # Assignment 1: Sequent Calculus Prover
-### Hyunkyung Lee (s5432909)
+### Hyunkyung Lee
 
 This repository includes my implementation for Assignment 1 in 3806ICT Logic and Automated Reasoning. 
 Based on Algorithm 2 from the course textbook(Hou, 2021), this project provides a baseline backward proof search prover for FOL as well as an improved version that makes use of memoization and loop detection. 
@@ -21,7 +21,7 @@ src/
 tests/
   run_step1_experiment.py # custom test + Pelletier 1-17
   run_step2_experiment.py # synthetic benchmark experiment (genAI)
-  run_step3_for_challenge_experiment.py # Pelletier 18-34 FOL challenge benchmark
+  run_step3_fol_challenge_experiment.py # Pelletier 18-34 FOL challenge benchmark
   test_formulae.py # test formulae
 
 data/
@@ -36,7 +36,7 @@ tptp/
 ```
 
 ## Notes
-The parser functions only as a partial version of a parser for TPTP; thus, it provides a project specific syntax for the current implementation. Selected Pelletier problems were manually encoded into internal formula representation.
+The parser is not a full TPTP parser. It supports only project specific FOL syntax used in this implementation. Selected Pelletier problems were manually encoded into internal formula representation.
 
 The output not_provide indicats that the formula itself was not found to be semantically invalid but rather that the prover was unable to produce a proof using the search strategy as implemented within the limits of time and resource restrictions. 
 
